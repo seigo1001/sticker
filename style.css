@@ -1,0 +1,36 @@
+body {
+	background-color: transparent;
+}
+
+.sticker {
+	position: relative;
+	width: 500px;
+	height: 180px;
+	margin: 50px;
+}
+
+.example-1 .sticker-img {
+	/* background-image: url(heroes-2.png); */
+	background-image: url(fusen02.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.example-2 .sticker-shadow {
+	opacity: 0.6;
+}
+.shadowL{
+	background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 100%) !important;
+}
+.shadowR{
+	background: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 100%) !important;
+}
+.shadowB{
+	background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 100%) !important;
+}
+.shadowT{
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0) 100%) !important;
+}
+.sticker div div div div:nth-child(3){
+	background-color: transparent !important;
+}
